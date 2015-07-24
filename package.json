@@ -1,0 +1,30 @@
+{
+  "name": "cliobject",
+  "version": "0.0.0",
+  "description": "Create CLI (Command-Line-Interface) utilities from your Node.js Objects. Automatically.",
+  "main": "src/cliobject.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -u tdd test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/javierarilos/cliobject.git"
+  },
+  "keywords": [
+    "node.js",
+    "node",
+    "cli",
+    "util"
+  ],
+  "author": "javierarilos",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/javierarilos/cliobject/issues"
+  },
+  "devDependencies": {
+    "tape": "~4.0.1",
+    "chai": "~3.2.0",
+    "sinon": "~1.15.4",
+    "mocha": "~2.2.5"
+  }
+}
